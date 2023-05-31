@@ -1,0 +1,45 @@
+v14.
+- Tenemos que tener mucho cuidado con las anotaciones e instalaciones que realizamos
+en el archivo pom.xml ya por instalacion o mal escrita. 
+v16.
+- DevTools, dependiendo del caso, nos permite ejecutar cambios en la app sin 
+necesidad de rederizar de nuevo
+v.17
+- Con el controlador RequestMapping podremos navegar entre rutas 
+- Tomar en cuenta el los valores de GetMappin y ResponseBody
+v.18 una manera de enrutar a diferentes lugares @PathVariable("destino del parametro")
+este formado usando el id y luego el slug se le llama clean url
+v.19 RequestParam se usa para recuperar los datos en forma de string tener cuidado
+con el paso de datos. 
+- Tomar en una para los buscadores
+v.20  aplication.properties
+- funciones de concectividad y puertos 
+- variables usables en los controladores
+@Value("${jimi.valores.nombre}")//inyeccionn de dependencias manual
+	private String jimiValoresNombre;
+	
+	@GetMapping("/valores")
+	@ResponseBody
+	public String valores() {
+		return "jimi.valores.nombre="+this.jimiValoresNombre;
+	}
+	
+- util para guardar contraseñas, valores globales.
+v.21g Instalacion via maiven
+- "Tener mucho cuidado con la inyeccion de dependencias, tuvimos porblemas
+con thymeleaf"
+v22 Primera vista
+Creacion de nuestra plantilla 
+- lo mejor es crear los archivos por carpetas
+- una carpeta por controlador
+v23 Creacion de un nuevo controlador
+- Tener cuidado con las vistas que usamos en getmapping
+- entonces podemos tener creados diferentes proyectos con diferentes templates
+v.24 Generando instancias para comunicarnos desde el controlador a la vista
+- para porder vinvular el html, uamos la etiqueta th.www.thymeleaf
+- ahora si podremos usar los recursos
+- como dijimos usamos thymeleaf como un motor de plantillas, casi como bootstrap
+- tenemos una extencion de visual studio quenos ayuda con esas etiquetas
+- funciona como otra libreria
+- tener en cuenta para la parte logica
+- con las etiquetas adecuadas podemos tener accedo a los diferentes valores
