@@ -21,7 +21,21 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		
+		<!-- Implementacion de DevTools-->
+			<dependency>
+		        <groupId>org.springframework.boot</groupId>
+		        <artifactId>spring-boot-devtools</artifactId>
+		        <scope>runtime</scope>
+		        <optional>true</optional>
+   			 </dependency>
+		<!-- Implementacion de DevTools-->
+		<!-- Implementacion de Maiven-->
+			<dependency>
+				  	<groupId>org.springframework.boot</groupId>
+  					<artifactId>spring-boot-starter-thymeleaf</artifactId>
+  						
+			</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
