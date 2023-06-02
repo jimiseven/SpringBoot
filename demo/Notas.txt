@@ -43,4 +43,5 @@ v.24 Generando instancias para comunicarnos desde el controlador a la vista
 - funciona como otra libreria
 - tener en cuenta para la parte logica
 - con las etiquetas adecuadas podemos tener accedo a los diferentes valores
+- podemos hacer el paso de valores entre la plantilla y el controlador
 REF--> hola desde github.new

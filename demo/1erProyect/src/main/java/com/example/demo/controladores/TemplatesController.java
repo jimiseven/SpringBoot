@@ -13,7 +13,9 @@ public class TemplatesController {
 	public String home(Model model) {//objeto de java
 		
 		String nombre = "jimijoe";
+		String pais = "Bolivia";
 		model.addAttribute("nombre", nombre);
+		model.addAttribute("pais", pais);
 		
 		return	"templates/home";
 		
