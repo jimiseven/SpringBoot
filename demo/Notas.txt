@@ -44,4 +44,9 @@ v.24 Generando instancias para comunicarnos desde el controlador a la vista
 - tener en cuenta para la parte logica
 - con las etiquetas adecuadas podemos tener accedo a los diferentes valores
 - podemos hacer el paso de valores entre la plantilla y el controlador
+- tomar en cuanta en el entorno de java, podemos usar todo lo que ya sabemos(concatenacion)
 REF--> hola desde github.new
+v.25 Condicionales y ciclos
+- tomar en cuenta conceptos de java, operadores ternarios
+- implementar el thymeleaf de forma embevida dentro el html
+- tener cuidado con la notacion de html

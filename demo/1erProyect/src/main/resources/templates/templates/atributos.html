@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th"htpp://www.thymelead.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 th:text="${num1+num2}"></h1>
+    <hr />
+    <h1 th:if="${num1>10}" th:text="${'si num1 es mayor a 10'}"></h1>
+
+    <hr />
+    <h1>12+12</h1>
+
+    <hr />
+
+    <div th:switch="${num1}">
+		
+        <p th:case="12" th:text="'es 12'"></p>
+        <p th:case="11" th:text="'es 11'"></p>
+        <p th:case="12" th:text="'es 12'"></p>
+        <p th:case="13" th:text="'es 13'"></p>
+        <p th:case="14" th:text="'es 14'"></p>
+        
+    </div>
+</body>
+</html>
